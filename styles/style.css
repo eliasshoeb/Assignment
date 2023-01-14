@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+.button-primary {
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 0px 25px;
+}
+header {
+  height: 1322px;
+  background: rgba(255, 144, 14, 0.1);
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+nav {
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+nav h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.menu ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 70px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+}
+.description {
+  text-align: center;
+}
+
+.description h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #131313;
+}
+.description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.description-info{
+    width: 45%;
+    margin:auto;
+    margin-bottom: 30px;
+}
+.description .button-primary{
+    margin-bottom: 40px;
+}
+.description img{
+    width: 75%;
+    height: auto;
+}
