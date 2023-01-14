@@ -74,3 +74,44 @@ nav h2 {
     width: 75%;
     height: auto;
 }
+.features{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 5% 16% 5% 16%;
+  grid-column-gap: 4%;
+}
+.features-info{
+  margin-left: 50px;
+}
+.features-info p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-size{
+  font-size: 45px;
+  line-height: 53px;
+}
+.quick-list-btn{
+  color: #727272;
+}
+.of-our-btn{
+  color: #131313;
+}
+.features-btn{
+color: #FF900E;
+}
+.images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 3%;
+  grid-column-gap: 3%;
+}
+@media only screen and (max-width:668px) {
+  
+}
+   
+ 
